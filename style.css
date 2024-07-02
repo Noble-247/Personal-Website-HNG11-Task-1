@@ -280,6 +280,7 @@ footer {
   .home-content a {
     font-size: 2rem;
     margin-left: 0;
+    font-weight: 300;
   }
 
   /* HOME SECTION MEDIA QUERY */
