@@ -14,8 +14,9 @@ function updateTime() {
   ).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 
   // Display the current time
-  document.getElementById("currentTime").innerHTML =
-    "Current time is " + formattedTime;
+  document.getElementById(
+    "currentTime"
+  ).innerHTML = `Current time is  ${formattedTime}`;
 }
 
 // Update the time every second

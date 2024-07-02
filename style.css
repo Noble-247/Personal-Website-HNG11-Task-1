@@ -16,7 +16,7 @@ html {
 :root {
   --bg-color: #080808;
   --second-bg-color: #001005;
-  --text-color: white;
+  --text-color: rgb(222, 217, 217);
   --main-color: #00ff51;
   --transition: 0.3s ease;
   --long-transition: 0.4s ease-in-out;
@@ -78,13 +78,6 @@ header {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-}
-
-#menuIcon {
-  font-size: 3.6rem;
-  color: var(--main-color);
-  display: none;
-  cursor: pointer;
 }
 
 .logo {
@@ -171,7 +164,7 @@ span.colored-text {
 }
 
 .home-image img {
-  border-radius: 50%;
+  border-radius: 15%;
   box-shadow: 0 0 25px var(--main-color);
   transition: var(--long-transition);
 }
@@ -274,13 +267,14 @@ footer {
   /* NAVIGATION MEDIA QUERY */
   .logo {
     font-size: 2rem;
+    font-weight: 500;
   }
 
   .navbar a,
   .home-content a {
     font-size: 2rem;
     margin-left: 0;
-    font-weight: 300;
+    font-weight: 500;
   }
 
   /* HOME SECTION MEDIA QUERY */
